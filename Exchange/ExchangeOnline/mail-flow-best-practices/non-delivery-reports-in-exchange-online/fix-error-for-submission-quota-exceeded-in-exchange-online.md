@@ -23,7 +23,7 @@ description: "Learn how to fix email issues for the error, 'the sender's submiss
 
 It's frustrating when you get an error after sending an email message. This topic describes what you can do if you see the error:
 
-> The message can't be submitted because the sender's submission quota was exceeded.
+> 550 5.1.92 Your message can't be sent because you've reached your 24 hour limit for message recipients.
 
 in a non-delivery report (also known as an NDR, bounce message, delivery status notification, or DSN).
 
@@ -49,8 +49,6 @@ More information about sending and receiving limits in Exchange Online is availa
 The sending account might be compromised. You'll need to:
 
 - [Determine if the account is compromised](https://docs.microsoft.com/office365/troubleshoot/sign-In/determine-account-is-compromised). If the account is compromised, follow the steps in [Responding to a Compromised Email Account in Exchange Online](https://docs.microsoft.com/office365/securitycompliance/responding-to-a-compromised-email-account).
-
-- Go to the **Restricted users** portal in the Security & Compliance Center at <https://protection.office.com/?hash=restrictedusers> to unblock the account. After you unblock the account, the user should be able to resume sending messages *within a few hours*.
 
 - To help prevent future account compromises, follow the recommendations in [Top 10 ways to secure Microsoft 365 for business plans](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/secure-your-business-data).
 
